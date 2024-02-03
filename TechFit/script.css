@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.header img {
+    margin:20px;
+    height: 120px;
+    width: 120px;
+    display: flex;
+} 
+
+.header button{
+    margin:40px;
+}
+
+.menu {
+    text-align: center;
+    background-color: #FFBF5D;
+    color: black;
+    border-color: #FFBF5D;
+    border-radius:10px;
+    height: 35px;
+    width: 80px;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 450px;
+    border-color: #99c3c194;
+    background-color: 	#99c3c194;
+    border-radius: 15%;
+    width: 400px;
+    margin-top: -120px;
+    gap: 20px;
+    padding:15px;
+} 
+
+
+#personal-info{
+    text-align: center; 
+}
+
+
+#personal-info .accept {
+    height: 20px;
+    width: 20px;
+}
+
+#sex{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#sex input{
+    width: 30px;
+}
+
+
+#personal-info input{
+    border-radius:10px;
+    height: 30px;
+    width: 200px;
+}
+
+
+
+#start button{
+    text-align: center;
+    background-color: #9DBC98;
+    border-color: grey;
+    color: white;
+    border-radius:10px;
+    height: 35px;
+    width: 80px;
+}
+
+.box1 {
+    text-align:center; 
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap:20px;
+}
+
+.select input {
+    border-radius:10px;
+    height: 30px;
+    width: 90px;
+}
+
+.popUp-box{
+    font-size:230%;
+    border-radius: 20%;
+    background-color: #92c7cfe6;
+    position: absolute;
+    top:30%;
+    left:23%;
+    height: 100px;
+    width: 500px;
+    text-align: center;
+    padding: 120px;
+}

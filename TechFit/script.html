@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFit</title>
+    <link rel="stylesheet" href="./script.css">
+</head>
+
+<body style="background-image: url(./pic4.jpg)">
+
+    <!-- Header -->
+    <header>
+        <div class="header">
+            <img src="./techfit4.png" style="border-radius: 50%">
+            <button class="menu" type="" onclick="openNewPage()">Recipes</button>
+        </div>   
+    </header>
+
+    <!-- 1st menu -->
+    <main> 
+        <div class="main">  
+            <div id="personal-info">
+                <h2>Welcome</h2>
+                <p>Name:</p>
+                <input type="text" id="name">
+                <p>Age:</p>
+                <input type="number" id="age">
+                <p>Height(cm):</p>
+                <input type="number" id="height">
+                <p>Weight(kg):</p>
+                <input type="number" id="weight">
+                <p>Sex:</p>
+
+                <div id="sex">
+                    <input type="checkbox" id="male" class="accept">
+                    <label for="male">Male</label>
+                    <input type="checkbox" id="female" class="accept">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+
+            <div class="box1">
+                <div id="select">
+                    <h2>Goal:</h2>
+                    <input type="checkbox" id="maintain" class="accept">
+                    <label for="maintain">Maintain Weight</label>
+                    <input type="checkbox" id="gain" class="accept">
+                    <label for="gain">Weight Gain</label>
+                    <input type="checkbox" id="loss" class="accept">
+                    <label for="loss">Weight Loss</label>
+                </div>
+
+                <div id="start">
+                    <button onclick="calculateDiet()">Calculate</button>
+                </div>
+            </div>
+
+            <div id="caloriesBox"></div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
